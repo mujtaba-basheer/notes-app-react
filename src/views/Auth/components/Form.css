@@ -1,0 +1,32 @@
+.form .field {
+  margin-bottom: 0.5em;
+}
+
+.form .field input {
+  width: 100%;
+  padding: 4px 6px;
+}
+
+.form .submit input {
+  text-transform: uppercase;
+  padding: 4px 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form .switch {
+  margin-top: 0.5em;
+}
+
+.form .switch button {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.form .error {
+  color: var(--COLOR-RED);
+  font-size: 0.75rem;
+  margin-bottom: 0.75em;
+}

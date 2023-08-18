@@ -1,0 +1,69 @@
+.page {
+  padding: 3em 2em;
+}
+
+.page .content {
+  width: 500px;
+  border: 1px solid black;
+  padding: 1em;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.page .content .field {
+  margin-bottom: 1em;
+}
+
+.page .content .field label {
+  display: block;
+  margin-bottom: 0.35em;
+}
+
+.page .content .field input,
+textarea {
+  display: block;
+  padding: 0.25em;
+  width: 100%;
+}
+
+.page .content .field textarea {
+  width: 100%;
+}
+
+.page .content .error {
+  color: var(--COLOR-RED);
+  font-size: 0.8rem;
+  margin-bottom: 0.75em;
+}
+
+.page .content .buttons-wrapper {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+.page .content .buttons-wrapper button,
+.page .content .buttons-wrapper a {
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  color: currentColor;
+  border-radius: 4px;
+}
+
+.page .content .buttons-wrapper button {
+  background-color: var(--COLOR-TEAL);
+}
+
+.page .content .buttons-wrapper a {
+  background-color: var(--COLOR-RED);
+}
+
+@media screen and (max-width: 634px) {
+  .page {
+    padding: 1.5em 1em;
+  }
+
+  .page .content {
+    width: 100%;
+  }
+}

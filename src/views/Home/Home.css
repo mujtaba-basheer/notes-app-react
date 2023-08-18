@@ -1,0 +1,32 @@
+.home {
+  height: 100%;
+}
+
+.home .notes-container {
+  margin: 2em 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.home .empty {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .empty p {
+  font-size: 2rem;
+}
+
+.home .empty p a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 634px) {
+  .home .empty p {
+    font-size: 1rem;
+  }
+}

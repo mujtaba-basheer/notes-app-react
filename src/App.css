@@ -1,0 +1,7 @@
+.App {
+  height: 100vh;
+}
+
+main.view {
+  height: calc(100vh - 60px);
+}

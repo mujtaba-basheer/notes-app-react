@@ -1,0 +1,25 @@
+:root {
+  --COLOR-YELLOW: #f9c74f;
+  --COLOR-ORANGE: #f9844a;
+  --COLOR-RED: #f94144;
+  --COLOR-BLUE-G: #43aa8b;
+  --COLOR-TEAL: #88c0be;
+  --COLOR-SKY-BLUE: #577590;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffdf;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
