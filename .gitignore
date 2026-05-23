@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# MCP config (contains secrets)
+mcp.json
+.mcp.json
